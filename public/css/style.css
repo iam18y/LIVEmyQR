@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 2rem;
+}
+
+#mobile {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 200px;
+}
+
+#send-otp, #verify-otp {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 218px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.restaurant-info {
+    margin-left: 1rem;
+}
+
+#menu-container {
+    padding-top: 80px; /* Adjust based on header height */
+}
+
+.category {
+    margin-bottom: 2rem;
+}
+
+.item-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.item-card button {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cart-fab {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.confirmation-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#qrcode {
+    margin: 20px auto;
+    width: 256px;
+    height: 256px;
+}
